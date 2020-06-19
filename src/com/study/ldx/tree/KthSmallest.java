@@ -32,19 +32,6 @@ public class KthSmallest {
     }
 }
 
-class TreeNode {
-  int val;
-  TreeNode left;
-  TreeNode right;
-  TreeNode() {}
-  TreeNode(int val) { this.val = val; }
-  TreeNode(int val, TreeNode left, TreeNode right) {
-      this.val = val;
-      this.left = left;
-      this.right = right;
-  }
-}
-
 /**
  * 给定一个二叉搜索树，编写一个函数 kthSmallest 来查找其中第 k 个最小的元素。
  *
