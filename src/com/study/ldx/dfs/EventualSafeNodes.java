@@ -17,6 +17,8 @@ public class EventualSafeNodes {
         System.out.println(ret);
     }
 
+    //查看图是不是有环
+    //用多个状态位表示
     public static List<Integer> eventualSafeNodes(int[][] graph) {
         List<Integer> ret = new ArrayList<>();
         int[] type = new int[graph.length];
@@ -26,7 +28,7 @@ public class EventualSafeNodes {
         }
         return ret;
     }
-    
+
 
     /**
      * 节点的状态 0 未访问 1 以访问 2安全 3 成环
