@@ -33,3 +33,4 @@ nbdist/
 /logs/xa_tx0.log
 /logs/
 /traffic-import-task/logs/xa_tx*.log
+/.idea/
